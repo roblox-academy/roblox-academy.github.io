@@ -1,3 +1,15 @@
 body {
-  backgroound-color: lightred;
+  background-color: lightred;
 }
+h6 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+      }
+div {   
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+      }
+p {   
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+      }
