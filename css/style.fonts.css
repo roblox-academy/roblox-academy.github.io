@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro&display=swap');
+
 h6 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+}
+
+h5 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+}
+
+h4 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+}
+
+h3 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+}
+
+h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+}
+
+h1 {
         font-family: 'Open Sans', sans-serif;
         font-size: 30px;
 }
