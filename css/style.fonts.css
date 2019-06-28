@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro&display=swap');
+h6 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+}
+
+div {   
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 28px;
+}
+
+p {   
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 28px;
+}
