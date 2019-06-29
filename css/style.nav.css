@@ -31,7 +31,7 @@ nav {
 .logo {
   width: 15%;
   float: left;
-  color: #fff;
+  color: #ff4d4d;
   font-size: 18px;
   text-align: left;
   padding-left: 2%;
@@ -42,7 +42,7 @@ nav {
 }
 
 .menu-area a {
-  color: #fff;
+  color: #ff4d4d;
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -54,7 +54,7 @@ nav {
   z-index: 1;
 }
 .menu-area a:hover {
-  background: tomato;
+  background: #fff;
   color: #fff;
 }
 
