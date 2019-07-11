@@ -1,0 +1,3 @@
+ErrorDocument 404.html
+
+Redirect permanet /redirect/youtube.html https://youtube.com
