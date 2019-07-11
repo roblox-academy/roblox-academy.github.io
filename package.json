@@ -1,0 +1,29 @@
+{
+  "name": "roblox-academy.github.io",
+  "version": "1.0.0",
+  "description": "Roblox Academy Website",
+  "main": "index.html start.ts module.ts",
+  "dependencies": {
+    "@angular/animations": "angular/animations-builds",
+    "@angular/cdk": "angular/cdk-builds",
+    "@angular/cli": "^8.1.1",
+    "@angular/material": "angular/material2-builds",
+    "@angular/platform-browser": "^8.1.1",
+    "parse5": "^5.1.0",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roblox-academy/roblox-academy.github.io.git"
+  },
+  "author": "Roblox Academy",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/roblox-academy/roblox-academy.github.io/issues"
+  },
+  "homepage": "https://github.com/roblox-academy/roblox-academy.github.io#readme"
+}
