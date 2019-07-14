@@ -5,7 +5,7 @@
     background: none;
     padding: 10px 20px;
     font-size: 20px;
-    font-family: "source+sans+pro";
+    font: Source Sans Pro,sans-serif;
     cursor: pointer;
     margin: 10px;
     transition: 0.8s;
