@@ -1,3 +1,4 @@
 ErrorDocument 404.html
+DirectoryIndex maintenance.html
 
-Redirect permanent /redirect/youtube.html https://youtube.com
+Redirect permanent /redirect/youtube.html https://youtube.com 
