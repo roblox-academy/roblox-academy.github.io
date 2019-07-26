@@ -19,6 +19,12 @@ nav{
 .nav-links li{
   list-style: none;
 }
+.nav-links div{
+  list-style: none;
+}
+.nav-links form{
+  list-style: none;
+}
 
 .nav-links form{
   color: rgb(226, 226, 226);
