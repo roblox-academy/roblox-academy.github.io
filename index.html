@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <!-- Sources -->
   <head>
@@ -34,13 +34,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://www.robloxacademy.tk/css/style.fonts.css">
   <link rel="stylesheet" href="https://www.robloxacademy.tk/css/animate.css">
   <link rel="stylesheet" href="https://www.robloxacademy.tk/css/button.css">
-  <link rel="stylesheet" href="https://www.robloxacademy.tk/bootstrap/bootstrap-latest/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://www.robloxacademy.tk/bootstrap/bootstrap-latest/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/footer.css">
   <!--JS Linking-->
   <script src="https://www.robloxacademy.tk/icons.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="https://www.robloxacademy.tk/start.js"></script>
   <script src="https://www.robloxacademy.tk/main.js"></script>
   <script src="https://www.robloxacademy.tk/polyfills.js"></script>
@@ -53,19 +50,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <script src="https://www.robloxacademy.tk/app-routing.module.ts"></script>
   <script src="https://www.robloxacademy.tk/app.component.js"></script>
   <script async src="https://www.robloxacademy.tk/search.js"></script>
+  <script src="https://www.robloxacademy.tk/bootstrap/bootstrap-latest/bootstrap.min.js"></script>
+  <script src="js/jquery.min.js"></script>
   <script src="https://www.robloxacademy.tk/js/wow.min.js"></script>
               <script>
               new WOW().init();
               </script>
   </head>
-    <title>Home - Roblox Academy</title>
-    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <body data-spy="scroll" data-target="#navbarResponsive">
+    
     <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#config-web-app -->
-
   <script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
@@ -81,49 +79,86 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   firebase.initializeApp(firebaseConfig);
   </script>
   <script src="https://vx10xxyt3z8k.statuspage.io/embed/script.js"></script>
-  <!-- Navigation -->
-    <nav>
-      <div class="logo">
-        <h4>Roblox Academy</h4>
+  
+  <!--Start Home Section-->
+  <div id="home">
+  <title>Home - Roblox Academy></title>
+  <!--Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img src="img/RobloxAcademyLogo.png" width="60" height="60">Roblox Academy</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarColor03">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#update">Update</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://docs.robloxacademy.tk">Docs</a>
+          </li>
+          <li>
+            <a class="nav-link" href="https://blog.robloxacademy.tk">Blog</a>
+          </li>
+          <li>
+            <a class="nav-link" href="https://www.robloxacademy.tk/login"></a>
+          </li>
+        </ul>
+        <script async src="https://cse.google.com/cse.js?cx=006309305385578822493:6zdamk_o2no"></script>
+        <div class="gcse-searchbox-only"></div>
       </div>
-      <ui class="nav-links">
-        <li><form action="https://www.robloxacademy.tk"><button class="btn redbutton">Home</button></form></li>
-        <li><form action="https://www.robloxacademy.tk/portfolio"><button class="btn redbutton">Portfolio</button></form></li>
-        <li><form action="https://www.robloxacademy.tk/aboutus"><button class="btn redbutton">About Us</button></form></li>
-        <li><form action="https://docs.robloxacademy.tk"><button class="btn redbutton">Docs</button></form></li>
-        <li><form action="https://www.robloxacademy.tk"><button class="btn redbutton">Blog</button></form></li>
-        <li><form action="https://www.robloxacademy.tk/forms"><button class="btn redbutton">Forms</button></form></li>
-        <li><form action="https://www.robloxacademy.tk/login"><button class="btn redbutton">Login</button></form></li>
-        <li><div class="gcse-searchbox-only"></div></li>
-      </ui>
-      <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-      </div>
-      <script src="https://www.robloxacademy.tk/js/nav.js"></script>
     </nav>
-
- <p>&nbsp;</p>
- <p>
-    Game: LINK COMING SOON
-    <button>Testing</button>
-    <p>&nbsp;</p>
-    Group: COMING SOON
-    <p>&nbsp;</p>
-    Discord: COMING SOON
-    </p>
-      </body>
+  <!--End Navigation-->
+    <div id="content" class="w3-xlarge wow fadeInLeft">
+       <center>
+        <h1>Welcome to the Roblox Academy Website</h1>
+        <p>
+          The all new Roblox Academy Website
+        </p>
+       </center>
+    </div>
+    <div id="danger" class="badge-danger alert-danger"><center>ALERT: Maintence is happening soon</center></div>
+  </div>
+  <!--End Home Section-->
+  <!--Start Welcome Section-->
+  <div id="about" class="offset wow fadeInRight">
+    <title>About - Roblox Academy</title>
+  </div>
+  <!--Start Desc Section-->
+  <div id="update" class="offset wow fadeInUp">
+    <title>Update - Roblox Academy</title>
     <p>
-    <!-- Footer -->
-  <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-   2019 Roblox Academy. All rights have been reserved. Do not copy anything from Roblox Academy without permission
-  </footer>
-  </p>
-  <p>  
-    <footer>
-    <div style="font-family: 'Source Sans Pro', sans-serif;">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a> and <a href="https://fonts.google.com" target="_blank">Google Fonts</a></div>
-    </footer>
+        <center>
+          The all new Roblox Academy Website. Made with HTML 5 and CSS
+          Hosted by GitHub Pages
+        </center>
     </p>
   </div>
+  <!--End Desc Section-->
+
+  <!--Start Contact Section-->
+  <div id="contact" class="offset wow bounceIn">
+    <title>Contact - Roblox Academy</title>
+  </div>
+  <!--End Contact Sectioon-->
+  <footer id="footer" class="offset bg-light badge-light font-weight-light" text="bg-light">
+    <center>
+      <p>
+        <h5 class="footer-copyright bg-light badge-light">(C)2019 Roblox Academy</h5>
+        <p class="footer-copyright badge-light bg-light">Roblox Academy is under Apache License and MIT License. Do not copy anything from Roblox Academy without any permission.</p>
+        <p class="social-media bg-light"><a href="https://www.youtube.com/channel/UCXCLLhzFTxk9iJKfjg1HDJw"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTkuNjE1IDMuMTg0Yy0zLjYwNC0uMjQ2LTExLjYzMS0uMjQ1LTE1LjIzIDAtMy44OTcuMjY2LTQuMzU2IDIuNjItNC4zODUgOC44MTYuMDI5IDYuMTg1LjQ4NCA4LjU0OSA0LjM4NSA4LjgxNiAzLjYuMjQ1IDExLjYyNi4yNDYgMTUuMjMgMCAzLjg5Ny0uMjY2IDQuMzU2LTIuNjIgNC4zODUtOC44MTYtLjAyOS02LjE4NS0uNDg0LTguNTQ5LTQuMzg1LTguODE2em0tMTAuNjE1IDEyLjgxNnYtOGw4IDMuOTkzLTggNC4wMDd6Ii8+PC9zdmc+"></a></p>
+      </p>
+    </center>
+  </footer>
+</body>
 </html>

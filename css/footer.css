@@ -1,0 +1,11 @@
+footer-text{
+    text-emphasis-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration-color: white;
+    text-align: center;
+    text-shadow: none;
+}
+
+.footer{
+    background: black;
+}
