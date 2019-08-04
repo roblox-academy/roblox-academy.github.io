@@ -59,6 +59,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.map"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootlint/0.16.6/bootlint.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
+  <script>
+  grecaptcha.ready(function() {
+      grecaptcha.execute('reCAPTCHA_site_key', {action: 'homepage'}).then(function(token) {
+      });
+  });
+  </script>
+  <script>
+      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
+      analytics.load("mx54jpbyBNUoZvqbCEhGmBAV5quSEL72");
+      analytics.page();
+      }}();
+    </script>
   <script src="https://www.robloxacademy.tk/js/wow.min.js"></script>
               <script>
               new WOW().init();
@@ -113,44 +126,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="collapse navbar-collapse" id="navbarColor03">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <form action="#home">
-              <button type="button" class="nav-link btn btn-toolbar btn-primary">Home <span class="sr-only">(current)</span></button>
-            </form>
+            <a class="nav-link btn btn-toolbar btn-primary">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <form action="#about">
-              <button type="button" class="nav-link btn btn-toolbar btn-primary">About</button>
-            </form>
+              <a class="nav-link btn btn-toolbar btn-primary" href="#about">About</a>
             </li>
           <li class="nav-item">
-            <form action="#update">
-              <button type="button" class="nav-link btn btn-toolbar btn-primary">Update</button>
-            </form>
-            </li>
-          <li class="nav-item">
-            <form action="#speedtest">
-              <button type="button" class="nav-link btn btn-toolbar btn-primary">Speedtest</button>
-            </form>
+              <a class="nav-link btn btn-toolbar btn-primary" href="#update">Update</a>
           </li>
           <li class="nav-item">
-            <form action="#contact">
-              <button class="nav-link btn btn-toolbar btn-primary" href="#contact">Contact</button>
-            </form>
+              <a class="nav-link btn btn-toolbar btn-primary">Speedtest</a>
           </li>
           <li class="nav-item">
-            <form action="https://docs.robloxacademy.tk">
-              <button type="button" class="nav-link btn btn-toolbar btn-primary">Docs</button>
-            </form>
+            <a class="nav-link btn btn-toolbar btn-primary" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-toolbar btn-primary" href="https://docs.robloxacademy.tk">Docs</a>
           </li>
           <li>
-            <form action="https://blog.robloxacademy.tk">
-              <button type="button" class="nav-link btn btn-toolbar btn-primary">Blog</button>
-            </form>
-            </li>
+             <a class="nav-link btn btn-toolbar btn-primary" href="https://www.robloxacademy.tk">Blog</a>
+          </li>
           <li>
-            <form action="https://www.robloxacademy.tk/login">
-              <button type="button" class="nav-link btn btn-toolbar btn-primary">Portal Login</button>
-            </form>
+             <a class="nav-link btn btn-toolbar btn-primary" href="https://www.robloxacademy.tk/login">Portal Login</a>
           </li>
         </ul>
         <script async src="https://cse.google.com/cse.js?cx=006309305385578822493:6zdamk_o2no"></script>
@@ -162,7 +159,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
        <center>
         <h1>Welcome to the Roblox Academy Website</h1>
        </center>
-       <p><button class="mat-button mdl-button mdl-button-js">Test</button></p>
       </div>
   </div>
   <!--End Home Section-->
