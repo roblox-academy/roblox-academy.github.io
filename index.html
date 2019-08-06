@@ -73,12 +73,19 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.map"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootlint/0.16.6/bootlint.min.js"></script>
-      <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
-      <script>
-      grecaptcha.ready(function() {
-          grecaptcha.execute('reCAPTCHA_site_key', {action: 'homepage'}).then(function(token) {
-          });
-      });
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      <script src="https://www.google.com/recaptcha/api.js?onload=v2_onload"></script>
+      <script src="https://www.google.com/recaptcha/api.js?onload=v3_onload&render=6LeVOLEUAAAAAIHtIzxUw2eKgKs4Dl86flJiAIXU"></script>
+      <div class="g-recaptcha" data-size="invisible" data-sitekey="6LeisbEUAAAAADKtiElC3mgJAz44-UCxLOGtZ1AX" data-callback="v2_callback"></div>
+      <script type="text/javascript">
+          function v2_onload() { console.log('v2 loaded'); }
+          function v3_onload() { console.log('v3 loaded'); }
+          function v2_callback(token) { console.log('v2 token: ' + token); }
+          function v3_callback(token) { console.log('v3 token: ' + token); }
+      
+          // call these manually
+          function test_v2() { grecaptcha.execute(); }
+          function test_v3() { grecaptcha.execute(V3_SITE_KEY/*, {action: '...'}*/).then(v3_callback); }
       </script>
       <script src="https://www.robloxacademy.tk/js/wow.min.js"></script>
                   <script>
@@ -166,9 +173,6 @@
       </div>
     </nav>
   <!--End Navigation-->
-    <div id="ad-blocker-popup" class="popup">
-      Hey there!
-    </div>
     <div id="content" class="wow fadeInLeft">
        <center>
         <h1>Welcome to the Roblox Academy Website</h1>
