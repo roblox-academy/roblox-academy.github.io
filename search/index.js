@@ -33,6 +33,6 @@ resultPages.forEach(function (r) {
     resultsString += "<li>";
     resultsString +=   "<a class='result' href='" + r.url + "?q=" + searchTerm + "'><h3>" + r.title + "</h3></a>";
     resultsString +=   "<div class='snippet'>" + r.content.substring(0, 200) + "</div>";
-    resultsString += "</li>"
+    resultsString += "</li>";
 });
 document.querySelector("#search-results").innerHTML = resultsString;

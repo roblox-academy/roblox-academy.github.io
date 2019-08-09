@@ -11,5 +11,5 @@
         {% endfor %}
     };
 </script>
-<script src="lunr.js"></script>
-<script src="js/search.js"></script>
+<script src="node_modules/lunr/lunr.min.js"></script>
+<script src="index.js"></script>
