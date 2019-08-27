@@ -1,0 +1,16 @@
+{
+  "short_name": "RBXAcademy",
+  "name": "Roblox Academy",
+  "icons": [
+    {
+      "src": "/img/RobloxAcademyLogo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/home",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/home",
+  "theme_color": "#3367D6"
+}
